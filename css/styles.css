@@ -1,0 +1,8 @@
+body {
+  background: url("../images/GObk.png") no-repeat;
+  background-size: cover; }
+
+.menu {
+  text-align: center; }
+  .menu ul {
+    list-style: none; }
