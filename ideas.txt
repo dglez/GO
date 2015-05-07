@@ -1,0 +1,3 @@
+1-Agregar la opcion de rentar un lugar.
+No necesariamente tenemos que crear un API para lidear con la opcion de rentar
+sino que podemos hacer una interfaz en la que todos los participantes que aporten algo seteado por el creador del evento para garantizar que se puede rentar el lugar. Entonces el creador usa su tarjeta virtual? o de verdad, ni idea como funcionan las transferencias bancarias a ese nivel, para pagar el precio del lugar a rentar.
