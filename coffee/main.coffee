@@ -1,3 +1,8 @@
  
-
-var menuitem =$('.menu ul').find('li'); for(i=0;i<menuitem.length;i++){$(menuitem[i]).height($(window).height()/6)}
+liHeight = 
+	$(window).height()/6
+for item in $('.menu ul').find('li') 
+	$(item)
+		.height(liHeight)
+		.css('padding-top',$(window).height()/12 - 14 + 'px')
+	
