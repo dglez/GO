@@ -2682,6 +2682,15 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/GObk.png": {
 		"fileType": 32768,
 		"ignore": 0,

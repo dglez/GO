@@ -1,11 +1,18 @@
 body {
   background: url("../images/GObk.png") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  color: #fff; }
 
 .menu {
-  text-align: center; }
-
-.menu ul {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0; }
+  .menu ul {
+    padding-left: 0;
     list-style: none; }
-
-
+  .menu span {
+    font-weight: bold; }
+  .menu li > a {
+    color: #fff; }
+    .menu li > a:hover {
+      text-decoration: none; }

@@ -1,13 +1,25 @@
 @import "bourbon";
 
+// global variables
+
+$primary-color: #fff;
+
 body{
 	background: url('../images/GObk.png') no-repeat;
 	background-size: cover;
+	color: $primary-color;
 }
 
 .menu {
 	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
 	ul{
-		list-style: none;
+		padding-left: 0;
+		list-style: none;}
+	span{font-weight: bold;}
+	li>a{
+		color: $primary-color;
+		&:hover{text-decoration: none;}
 	}
 }
