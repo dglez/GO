@@ -8,4 +8,12 @@ for item in menuItems
 		.height(liHeight)
 		.width(liHeight)
 		.css('padding-top',$(window).height()/12 - 14 + 'px')
+$(window).resize(->
+	liHeight = 
+		$(window).height()/menuItems.length
+	for item in menuItems 
+		$(item)			
+			.width(liHeight)
+			.css({'padding-top':$(window).height()/12 - 14 + 'px', 'height': liHeight + 'px' })
+	return)
 	

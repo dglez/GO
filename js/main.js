@@ -11,6 +11,18 @@
     $(item).height(liHeight).width(liHeight).css('padding-top', $(window).height() / 12 - 14 + 'px');
   }
 
+  $(window).resize(function() {
+    var j, len1;
+    liHeight = $(window).height() / menuItems.length;
+    for (j = 0, len1 = menuItems.length; j < len1; j++) {
+      item = menuItems[j];
+      $(item).width(liHeight).css({
+        'padding-top': $(window).height() / 12 - 14 + 'px',
+        'height': liHeight + 'px'
+      });
+    }
+  });
+
 }).call(this);
 
 

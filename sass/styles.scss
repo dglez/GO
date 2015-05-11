@@ -24,6 +24,7 @@ body{
 	}
 		span{font-weight: bold;}
 		li{
+			@include box-sizing(border-box);
 			@include linear-gradient(#6b6b6b, #6f6f6f);
 			>a{
 				color: $primary-color;
