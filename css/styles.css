@@ -14,9 +14,15 @@ body {
 .menu ul {
   padding-left: 0;
   list-style: none;
+  margin-bottom: 0;
 }
 .menu span {
   font-weight: bold;
+}
+.menu li {
+  background-color: #6b6b6b;
+  background-image: -webkit-linear-gradient(#6b6b6b, #6f6f6f);
+  background-image: linear-gradient(#6b6b6b, #6f6f6f);
 }
 .menu li > a {
   color: #fff;

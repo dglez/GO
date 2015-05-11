@@ -19,10 +19,15 @@ body{
 	font-weight: 100;
 	ul{
 		padding-left: 0;
-		list-style: none;}
-	span{font-weight: bold;}
-	li>a{
-		color: $primary-color;
-		&:hover{text-decoration: none;}
+		list-style: none;
+		margin-bottom: 0;
 	}
-}
+		span{font-weight: bold;}
+		li{
+			@include linear-gradient(#6b6b6b, #6f6f6f);
+			>a{
+				color: $primary-color;
+				&:hover{text-decoration: none;}
+			}
+		}
+	}

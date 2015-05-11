@@ -8,7 +8,7 @@
 
   for (i = 0, len = menuItems.length; i < len; i++) {
     item = menuItems[i];
-    $(item).height(liHeight).css('padding-top', $(window).height() / 12 - 14 + 'px');
+    $(item).height(liHeight).width(liHeight).css('padding-top', $(window).height() / 12 - 14 + 'px');
   }
 
 }).call(this);
