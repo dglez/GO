@@ -2,6 +2,11 @@
 
 // global variables
 
+@mixin dimentions($x,$y){
+	width:$x;
+	height:$y;
+}
+
 
 $primary-color: #fff;
 
@@ -12,6 +17,7 @@ body{
 }
 
 .menu {
+	position: fixed;
 	text-align: center;
 	text-transform: uppercase;
 	padding: 0;
@@ -22,13 +28,20 @@ body{
 		list-style: none;
 		margin-bottom: 0;
 	}
-		span{font-weight: bold;}
-		li{
-			@include box-sizing(border-box);
-			@include linear-gradient(#6b6b6b, #6f6f6f);
-			>a{
-				color: $primary-color;
-				&:hover{text-decoration: none;}
-			}
+	span{font-weight: bold;}
+	li{
+		@include box-sizing(border-box);
+		@include linear-gradient(#6b6b6b, #6f6f6f);
+		>a{
+			color: $primary-color;
+			&:hover{text-decoration: none;}
 		}
 	}
+	.switch{
+		position: absolute;
+		@include dimentions(30px,30px);
+		right: -30px;
+		background: url('../images/switch.png') top left no-repeat;
+		background-size: contain;
+	}
+}

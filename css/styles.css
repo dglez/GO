@@ -5,6 +5,7 @@ body {
 }
 
 .menu {
+  position: fixed;
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -32,4 +33,12 @@ body {
 }
 .menu li > a:hover {
   text-decoration: none;
+}
+.menu .switch {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -30px;
+  background: url("../images/switch.png") top left no-repeat;
+  background-size: contain;
 }
