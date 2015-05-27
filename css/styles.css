@@ -38,7 +38,8 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  right: -30px;
+  right: -40px;
+  top: 10px;
   background: url("../images/switch.png") top left no-repeat;
   background-size: contain;
 }
